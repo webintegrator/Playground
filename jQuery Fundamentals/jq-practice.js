@@ -1,4 +1,6 @@
-//http://developpeurweb.ca/learn/jQuery/
 
 
+/*Lesson 3: Dom Manipulation*/
 //Video 13b
+
+
