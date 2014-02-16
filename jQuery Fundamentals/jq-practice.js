@@ -66,6 +66,15 @@ jQuery('<li>mutt</li>').replaceAll('#dogs li')
 //does the same as above if not defining
 jQuery('#dogs li').text('Poodle');
 
+//
+var myParent = jQuery('#bird2').parent();  
+   jQuery(myParent)  
+      .replaceWith(  
+         "<ol>"  
+         +jQuery(myParent).html()  
+         +"</ol>"  
+      )
+
 
 
 
